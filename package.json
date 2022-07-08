@@ -1,0 +1,19 @@
+{
+  "name": "giraffe-birthday-bot",
+  "version": "1.0.0",
+  "description": "small telegram bot for celebrating my wife's birthday",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Vic Samoylik",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
